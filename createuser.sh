@@ -1,5 +1,5 @@
 #!/bin/bash
-userfile=/tmp/userlist 
+userfile=/userlist 
 username=$(cat /tmp/userlist | tr 'A-Z'  'a-z')
 password=$username@123
 for user in $username
